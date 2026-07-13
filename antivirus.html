@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-image: url("Gemini_Generated_Image_efselmefselmefse.png");
+            background-size: cover; /* Changed to cover to ensure image fills screen */
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+            font-size: 35px;
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+            font-family: "Montserrat", sans-serif;
+            letter-spacing: 2px;
+            flex-direction: column;
+            height: 100vh; /* Ensures body takes full height */
+            margin: 0;
+        }
+        #titlenig {
+            margin-top: 10px;
+        }
+        #scanbtn {
+            background-color: aqua;
+            width: 175px;
+            height: 75px;
+            font-family: "Montserrat", sans-serif;
+            font-size: 30px;
+            margin-top: 10px;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+        /* New watermark style */
+        .watermark {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            font-size: 12px;
+            color: rgba(255, 255, 255, 0.5);
+            pointer-events: none;
+            font-family: "Montserrat", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="titlenig">WELCOME TO THE GUARDIAN SHIELD ANTIVIRUS</h1>
+    <button id="scanbtn">Virus Scan</button>
+
+    <div class="watermark">Secured By Google Gemini</div>
+    <script>
+        let scanbtn = document.getElementById("scanbtn");
+        scanbtn.addEventListener("click", () => {
+            alert("612 VIRUSES FOUND.")
+        })
+    </script>
+</body>
+</html>
